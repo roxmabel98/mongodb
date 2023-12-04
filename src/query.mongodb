@@ -1,2 +1,5 @@
 use("sample_training")
+
+
+//HOLA, AQUI NOMBRE DE CIUDADES PARA MONGODB
 db.zips.find({ state: "NY" }).count()
