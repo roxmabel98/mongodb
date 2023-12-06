@@ -1,5 +1,5 @@
 use("sample_training")
 
 
-//NAISHA AYOVI
+//Ciudades
 db.zips.find({ state: "NY" }).count()
