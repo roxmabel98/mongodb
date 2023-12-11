@@ -1,4 +1,4 @@
-mongodb+srv://roxanitap98:MABELTOALA98.@cluster0.jpxmnvz.mongodb.net/
-mongodb://root:root123@192.168.232.139:28105/?tls=false&authMechanism=DEFAULT
-use("sofia")
+mongodb+srv://roxanitap98:<password>@cluster0.jpxmnvz.mongodb.net/
+mongodb://root:root123@192.168.232.140:27018/?tls=false&authMechanism=DEFAULT
+use("espoch_store")
 db.clase.find()
