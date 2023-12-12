@@ -1,0 +1,11 @@
+use("espoch_store")
+db.universidades.updateOne(
+    //query
+    {_id:"65788edab46d866c5ad060d72"},
+    //change
+    {
+        $set:{
+            nombre:'ITSO',
+        }
+    }
+)

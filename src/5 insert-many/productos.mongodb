@@ -1,21 +1,25 @@
 use("espoch_store")
-db.productos.drop()
-db.productos.insertMany([
+db.universidades.drop()
+db.universidades.insertMany([
     {
-    _id:1,
-    name:"lavadora",
-    precio:1200
-},
-{
-    _id:2,
-    name:"refrigeradora",
-    precio:1500
-},
-{
     _id:3,
-    name:"cocina",
-    precio:2000
-}
-])
-db.productos.find()
+    nombre:"Espoch",
+    direccion:"Riobamba"
+},
+{
+    _id:4,
+    nombre:"ESPE",
+    direccion:"GYE"
+    },
+    {
+        _id:5,
+        nombre:"ESPOL",
+        direccion:"CUENCA"
+    },
+    {
+        nombre:"Espoch",
+    direccion:"Riobamba"
+    }
 
+])
+db.universidades.find()

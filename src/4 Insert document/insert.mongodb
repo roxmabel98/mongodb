@@ -1,11 +1,25 @@
 use("espoch_store")
-db.productos.insertOne({
-    _id:1,
-    name:"lavadora",
-    precio:1200
+db.universidades.drop()
+db.universidades.insertOne({
+    _id:6,
+    nombre:"Espoch",
+    direccion:"Riobamba",
+    color:"azul"
 })
-db.productos.insertOne({
-    _id:2,
-    name:"refrigeradora",
-    precio:1500
+
+db.universidades.insertOne({
+    _id:7,
+    nombre:"ESPE",
+    direccion:"QUITO",
 })
+db.universidades.insertOne({
+    _id:8,
+    nombre:"ESPE",
+    direccion:"GYE"
+})
+db.universidades.insertOne({
+    _id:9,
+    nombre:"ESPOL",
+    direccion:"CUENCA"
+})
+

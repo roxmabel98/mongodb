@@ -1,0 +1,11 @@
+use("espoch_store")
+db.universidades.updateOne(
+    //query
+{_id:ObjectId("657801f956b19e6ca6fedd1b")},
+//change
+{
+    $inc:{
+        price:100,
+    }
+}
+)

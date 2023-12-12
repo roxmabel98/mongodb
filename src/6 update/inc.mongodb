@@ -1,0 +1,13 @@
+use("espoch_store")
+db.universidades.updateOne(
+        //query
+        {_id:3},
+        //change
+        {
+            $inc:{
+                
+                direccion:"Cuenca",
+              
+            }
+        }
+)
