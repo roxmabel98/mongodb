@@ -4,8 +4,7 @@ db.universidades.updateOne(
     {_id:ObjectId("65788edab46d866c5ad060d7")},
     //change
     {
-        $set:{
-            nombre:'UNACH',
+        $unset:{
             colo:'amarillo'
         }
     }

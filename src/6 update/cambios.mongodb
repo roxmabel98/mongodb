@@ -1,0 +1,15 @@
+use ("espoch_store");
+
+var documentoExistente = db.universidades.findOne({ _id:1});
+
+if (documentoExistente) {
+    // Elimina el documento existente
+    db.universidades.deleteOne({ _id:1 });
+
+    // Modifica el documento existente con el nuevo _id
+    documentoExistente._id = null ;  // Puedes asignar un nuevo ObjectId o un valor único.
+    db.universidades.insertOne(documentoExistente);
+}
+
+// Muestra los documentos actualizados
+db.universidades.find();
